@@ -4,3 +4,4 @@ src/output_resume.docx
 src/output_resume.pdf
 src/resume_template.docx
 src/*.pdf
+src/*.docx
