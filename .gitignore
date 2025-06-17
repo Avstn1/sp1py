@@ -8,3 +8,4 @@ src/*.docx
 src/build/
 src/dist/
 src/main.spec
+src/*.ico
