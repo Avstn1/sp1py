@@ -5,3 +5,6 @@ src/output_resume.pdf
 src/resume_template.docx
 src/*.pdf
 src/*.docx
+src/build/
+src/dist/
+src/main.spec
