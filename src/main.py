@@ -27,7 +27,7 @@ Formatting rules:
 - Each skill must be on a single line (no line breaks between label and description)
 - No blank lines in between
 - Each skill must start with a label followed by a colon (e.g. "Sales Skills:")
-- The label and description must be on the same line e.g. (<Skill>: <Description>) (do not newline between label and description)
+- URGENT: The label and description must be on the same line e.g. (<Skill>: <Description>) (do not newline between label and description)
 - Use plain text only (no bullets, bold, or italics)
 - Each skill must reflect a real competency, not a job requirement
 - Avoid phrases like “preferred” or “is a plus”
@@ -40,7 +40,7 @@ Tailor your responses to this job description:
 
 def get_experience_prompt(job_description, role_name, example_bullets):
     return f"""
-You're writing bullet points for a resume's EXPERIENCE section. Each bullet must:
+You're writing bullet points for a resume's EXPERIENCE section. Keep in mind what you write goes straight into the resume. Each bullet must:
 - Start with an action verb
 - Stay authentic to the original experience
 - Be concise
